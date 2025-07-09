@@ -1,1 +1,0 @@
-// Placeholder for file manager screen logic
