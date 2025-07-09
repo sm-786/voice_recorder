@@ -1,0 +1,12 @@
+workflows:
+  android-build:
+    name: Build APK & AAB
+    environment:
+      flutter: stable
+    scripts:
+      - flutter pub get
+      - flutter build apk --release
+      - flutter build appbundle --release
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk
+      - build/app/outputs/bundle/release/app-release.aab

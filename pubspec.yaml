@@ -1,0 +1,19 @@
+name: echo_vibe_flutter
+description: Voice recorder app with echo and export
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_sound: ^9.2.13
+  ffmpeg_kit_flutter: ^4.5.1
+  permission_handler: ^11.0.0
+  path_provider: ^2.0.11
+  shared_preferences: ^2.2.0
+
+flutter:
+  uses-material-design: true
